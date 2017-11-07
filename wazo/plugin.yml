@@ -1,0 +1,10 @@
+name: admin-ui-funckey
+namespace: official
+version: 0.0.1
+author: Wazo Team
+display_name: Funckey
+tags:
+  - beta
+  - application
+homepage: https://github.com/wazo-pbx/wazo-admin-ui-funckey
+
