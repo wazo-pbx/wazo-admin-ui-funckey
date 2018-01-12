@@ -2,10 +2,35 @@
 # SPDX-License-Identifier: GPL-3.0+
 
 from flask_babel import lazy_gettext as l_
-from wtforms.fields import StringField, SelectField
+from wtforms.fields import (
+    SubmitField,
+    StringField,
+    FormField,
+    FieldList,
+    IntegerField,
+    BooleanField,
+    HiddenField,
+    SelectField
+)
 from wtforms.validators import InputRequired, Length
 
 from wazo_admin_ui.helpers.form import BaseForm
+from wazo_admin_ui.helpers.funckey import FuncKeyDestinationField
+
+
+class FuncKeyTemplateKeysForm(BaseForm):
+    id = HiddenField()
+    digit = IntegerField(validators=[InputRequired()])
+    label = StringField(l_('Label'), [InputRequired(), Length(max=128)])
+    destination = FuncKeyDestinationField()
+    blf = BooleanField(l_('BLF'), default=True)
+    inherited = BooleanField(l_('Inherited'))
+
+
+class FuncKeyTemplateForm(BaseForm):
+    name = StringField(l_('Name'), [InputRequired(), Length(max=128)])
+    keys = FieldList(FormField(FuncKeyTemplateKeysForm))
+    submit = SubmitField()
 
 
 class CustomFuncKeyDestination(BaseForm):
