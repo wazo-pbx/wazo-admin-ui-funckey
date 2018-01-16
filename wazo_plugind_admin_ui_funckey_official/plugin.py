@@ -5,11 +5,13 @@ from flask_babel import lazy_gettext as l_
 
 from wazo_admin_ui.helpers.funckey import register_funckey_destination_form
 
-from .form import CustomFuncKeyDestination, \
-    GeneralServicesFuncKeyDestinationForm, \
-    TransferServicesFuncKeyDestinationForm, \
-    OnlineRecFuncKeyDestinationForm, \
-    ForwardServicesFuncKeyDestinationForm
+from .form import (
+    CustomFuncKeyDestination,
+    ForwardServicesFuncKeyDestinationForm,
+    GeneralServicesFuncKeyDestinationForm,
+    OnlineRecFuncKeyDestinationForm,
+    TransferServicesFuncKeyDestinationForm,
+)
 
 
 class Plugin(object):
