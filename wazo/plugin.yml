@@ -1,6 +1,6 @@
 name: admin-ui-funckey
 namespace: official
-version: 0.0.2-3
+version: 0.0.2-4
 author: Wazo Team
 display_name: Funckey
 min_wazo_version: 18.02
