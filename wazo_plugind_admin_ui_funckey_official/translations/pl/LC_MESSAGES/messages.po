@@ -4,12 +4,15 @@
 # wazo_admin_ui_funckey project.
 # Wazo Dev Team <dev@wazo.community>, 2018.
 # 
+# Translators:
+# Ania P., 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: wazo_admin_ui_funckey 0.1\n"
 "Report-Msgid-Bugs-To: 'dev@wazo.community'\n"
 "POT-Creation-Date: 2018-02-27 13:42-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Ania P., 2018\n"
 "Language-Team: Polish (https://www.transifex.com/wazo/teams/69545/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -21,23 +24,23 @@ msgstr ""
 #: wazo_plugind_admin_ui_funckey_official/form.py:18
 #: wazo_plugind_admin_ui_funckey_official/plugin.py:22
 msgid "Service"
-msgstr ""
+msgstr "Usługi"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:19
 msgid "Enable voicemail"
-msgstr ""
+msgstr "Włącz pocztę głosową"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:20
 msgid "Reach the voicemail"
-msgstr ""
+msgstr "twórz pocztę głosową"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:21
 msgid "Delete messages from voicemail"
-msgstr ""
+msgstr "Skasuj wiadomości z poczty głosowej"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:22
 msgid "Phone status"
-msgstr ""
+msgstr "Status telefonu"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:23
 msgid "Sound recording"
@@ -45,61 +48,61 @@ msgstr ""
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:24
 msgid "Disable all forwarding"
-msgstr ""
+msgstr "Wyłącz wszystkie przekierowania"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:25
 msgid "Listen to online calls"
-msgstr ""
+msgstr "Słuchaj aktywnych połączeń"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:26
 msgid "Directory access"
-msgstr ""
+msgstr "Dostęp do katalogu"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:27
 msgid "Group Interception"
-msgstr ""
+msgstr "Przechwytywanie grupy"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:28
 msgid "Call recording"
-msgstr ""
+msgstr "Nagrywanie rozmowy"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:29
 msgid "Incoming call filtering"
-msgstr ""
+msgstr "Filtry połączeń przychodzących"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:30
 msgid "Do not disturb"
-msgstr ""
+msgstr "Nie przeszkadzać"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:37
 #: wazo_plugind_admin_ui_funckey_official/plugin.py:21
 msgid "Transfer"
-msgstr ""
+msgstr "Transfer"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:38
 msgid "Blind transfer"
-msgstr ""
+msgstr "Transfer w ciemno"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:39
 msgid "Indirect transfer"
-msgstr ""
+msgstr "Transfer pośredni"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:46
 #: wazo_plugind_admin_ui_funckey_official/plugin.py:23
 msgid "Forward"
-msgstr ""
+msgstr "Przekierowanie"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:47
 msgid "Enable / Disable forwarding on busy"
-msgstr ""
+msgstr "Włącz / wyłącz przekierowania gdy zajęty"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:48
 msgid "Enable / Disable forwarding on no answer"
-msgstr ""
+msgstr "Włącz / wyłącz przekierowania gdy brak odpowiedzi"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:49
 msgid "Enable / Disable forwarding unconditional"
-msgstr ""
+msgstr "Włącz / wyłącz przekierowania bezwarunkowe"
 
 #: wazo_plugind_admin_ui_funckey_official/form.py:52
 msgid "Exten"
@@ -107,8 +110,8 @@ msgstr ""
 
 #: wazo_plugind_admin_ui_funckey_official/plugin.py:20
 msgid "Custom"
-msgstr ""
+msgstr "Własne"
 
 #: wazo_plugind_admin_ui_funckey_official/plugin.py:24
 msgid "Online Recording"
-msgstr ""
+msgstr "Nagrywanie online"
